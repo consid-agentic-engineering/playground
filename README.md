@@ -12,22 +12,7 @@ Two session formats are available depending on how much introduction the group n
 
 ---
 
-## Format A — Fast path (3 hours)
-
-For groups that have already been introduced to the Conductor Model. Minimal intro, maximum hands-on.
-
-| Time | What happens |
-|---|---|
-| 0:00–0:10 | Recap and orientation |
-| 0:10–0:25 | Live demo: `/conductor` → `/kickstart` → first change |
-| 0:25–2:40 | Hands-on — you build, facilitator circulates |
-| 2:40–3:00 | Share back + feedback |
-
-The hands-on block is the session. Everything else is minimal.
-
----
-
-## Format B — Detailed introduction (2 × 3 hours)
+## Format A — Detailed introduction (2 × 3 hours)
 
 For groups new to the Conductor Model. Spreads the content across two sessions — more depth in Session 1, more hands-on time in Session 2.
 
@@ -50,6 +35,21 @@ For groups new to the Conductor Model. Spreads the content across two sessions �
 | 2:30–3:00 | Share back + feedback + retrospective |
 
 Between sessions, participants should have their project set up with a charter, architecture description, and at least one change in progress.
+
+---
+
+## Format B — Fast path (3 hours)
+
+For groups that have already been introduced to the Conductor Model. Minimal intro, maximum hands-on.
+
+| Time | What happens |
+|---|---|
+| 0:00–0:10 | Recap and orientation |
+| 0:10–0:25 | Live demo: `/conductor` → `/kickstart` → first change |
+| 0:25–2:40 | Hands-on — you build, facilitator circulates |
+| 2:40–3:00 | Share back + feedback |
+
+The hands-on block is the session. Everything else is minimal.
 
 ---
 
