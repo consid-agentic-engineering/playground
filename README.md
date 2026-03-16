@@ -36,6 +36,11 @@ For groups new to the Conductor Model. Spreads the content across two sessions �
 
 Between sessions, participants should have their project set up with a charter, architecture description, and at least one change in progress.
 
+> **Don't have a project idea?** Pick one of these — each can be kicked off in under 10 minutes:
+> - **Fruit explorer** — display fruit nutrition data using the [FruityVice API](https://www.fruityvice.com) (no key needed)
+> - **Weather widget** — show current conditions for any city using the [Open-Meteo API](https://open-meteo.com) (no key needed)
+> - **Recipe finder** — search and browse recipes using the [TheMealDB API](https://www.themealdb.com/api.php) (no key needed)
+
 ---
 
 ## Format B — Fast path (3 hours)
