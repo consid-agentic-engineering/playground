@@ -2,7 +2,7 @@
 
 You're sitting down, agent is open, project folder is ready. Here's what to run.
 
-If your agent is not set up yet, go to [prepare.md](prepare.md) first.
+**Not prepared yet?** Go to [prepare.md](prepare.md) first. You need the Conductor Model installed and `/conductor` working before continuing here. The Conductor Model includes OpenSpec — no separate install needed.
 
 ---
 
@@ -18,12 +18,10 @@ Walk through the numbered menu:
 
 1. **Project type** → Product or Delivery
 2. **Documentation mode** → Lean (simplest) or Governed
-3. **Implementation method** → OpenSpec (structured) or GSD (lightweight)
+3. **Implementation method** → OpenSpec
 4. **Project name and description** → one sentence
 
 When asked how to start, choose **1. Kickstart**.
-
-Not sure which method to pick? See [openspec.md](openspec.md) for the difference.
 
 ---
 
@@ -52,7 +50,7 @@ When kickstart finishes, choose **1. Continue as-is** and start building.
 
 ## Step 3 — Build
 
-Open `openspec/implementation-order.md` (OpenSpec) or just start on the first capability (GSD).
+Open `openspec/implementation-order.md` and work through the changes in order.
 
 For each change:
 
