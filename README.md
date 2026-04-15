@@ -91,6 +91,8 @@ git log --oneline  # See the full history
 
 Do **not** work directly in `playground/acme-order-system/` — that's just a reference copy. Clone from GitHub instead.
 
+→ [**Workflow examples — how to use the ACME system for hands-on practice**](acme-workflows.md)
+
 ---
 
 ## Background reading
