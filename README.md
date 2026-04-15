@@ -19,14 +19,7 @@ Pick a direction based on what you want to practice:
 - → [**The Conductor Model**](the-conductor-model.md) — what it is and why it exists
 - → [**OpenSpec**](openspec.md) — structured change management for agentic delivery
 
-### 2. Explore a real codebase
-- → [**Brownfield Exploration**](brownfield-exploration.md) — understand, assess, and improve an existing system using the ACME Order System
-  - Practice `/health-assessment` to understand current state
-  - Use `/brownfield-explore` to map the architecture
-  - Design improvements with `/architect` or `/target-architecture`
-  - Implement changes with OpenSpec workflows
-
-### 3. Start your own project
+### 2. Start your own project
 Pick an idea that interests you:
 
 **Quick-start API projects** (under 10 minutes to first working version):
@@ -47,6 +40,13 @@ Pick an idea that interests you:
 - Use `/openspec-new-change` to start your first improvement
 
 See [Project ideas by role](projects-developers.md), [architects](projects-architects.md), [presales](projects-presales.md).
+
+### 3. Explore a real codebase
+- → [**Brownfield Exploration**](brownfield-exploration.md) — understand, assess, and improve an existing system using the ACME Order System
+  - Practice `/health-assessment` to understand current state
+  - Use `/brownfield-explore` to map the architecture
+  - Design improvements with `/architect` or `/target-architecture`
+  - Implement changes with OpenSpec workflows
 
 ### 4. Work through a workflow
 Once you have a project:
