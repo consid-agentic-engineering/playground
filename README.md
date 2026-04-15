@@ -1,104 +1,91 @@
-# Åben Legestue — Agentic Engineering
+# Playground — Directed Agentic Engineering
 
-Welcome. This is the home page for the open playground sessions on agentic engineering.
+An open space to explore, experiment, and practice Directed Agentic Engineering in a hands-on way.
 
-## What this is
+## What's here
 
-A hands-on session where you bring a project and work with AI agents using structured workflows. The goal is to experience what directed agentic delivery feels like in practice — not to watch demos, but to build something yourself.
+This playground is a collection of projects, reference implementations, and guides for learning how to work with AI agents using structured workflows. It's designed for:
 
-We use **The Conductor Model** as the framework and either **OpenSpec** or **GSD** as the delivery method. Your choice.
+- **Architects** — exploring how to design systems with agentic capabilities
+- **Developers** — understanding how to build and refactor codebases with AI assistance
+- **Presales** — demonstrating capabilities and workflows to clients
+- **Teams** — learning the Conductor Model and OpenSpec together
 
-Two session formats are available depending on how much introduction the group needs.
+## How to start
 
----
+Pick a direction based on what you want to practice:
 
-## Format A — Detailed introduction (2 × 3 hours)
+### 1. Learn the framework
+- → [**The Conductor Model**](the-conductor-model.md) — what it is and why it exists
+- → [**OpenSpec**](openspec.md) — structured change management for agentic delivery
 
-For groups new to the Conductor Model. Spreads the content across two sessions — more depth in Session 1, more hands-on time in Session 2.
+### 2. Explore a real codebase
+- → [**Brownfield Exploration**](brownfield-exploration.md) — understand, assess, and improve an existing system using the ACME Order System
+  - Practice `/health-assessment` to understand current state
+  - Use `/brownfield-explore` to map the architecture
+  - Design improvements with `/architect` or `/target-architecture`
+  - Implement changes with OpenSpec workflows
 
-### Session 1 — Introduction and first steps
+### 3. Start your own project
+Pick an idea that interests you:
 
-| Time | What happens |
-|---|---|
-| 0:00–0:30 | Introduction: The Conductor Model, the problem it solves, the three domains |
-| 0:30–0:50 | The documentation model: lean vs governed, OpenSpec vs GSD |
-| 0:50–1:20 | Live demo: `/conductor` → `/kickstart` → first change — with explanation |
-| 1:20–2:30 | Hands-on — first session, reach `/kickstart` and start first change |
-| 2:30–3:00 | Share back: what did you set up, what surprised you, open questions |
+**Quick-start API projects** (under 10 minutes to first working version):
+- **Fruit explorer** — nutrition data from [FruityVice API](https://www.fruityvice.com)
+- **Weather widget** — conditions from [Open-Meteo API](https://open-meteo.com)
+- **Recipe finder** — recipes from [TheMealDB API](https://www.themealdb.com/api.php)
 
-### Session 2 — Deliver, review, close
+**Real codebase exploration**:
+- **ACME Order System** — realistic Spring Boot app showing patterns and anti-patterns
+  - 11 commits of history to explore
+  - Intentional design issues to discuss and refactor
+  - Clone from [GitHub](https://github.com/consid-agentic-engineering/acme-order-system.git)
 
-| Time | What happens |
-|---|---|
-| 0:00–0:15 | Recap from Session 1 — orient with `/conductor` |
-| 0:15–2:30 | Hands-on — continue delivery, `/review`, `/version-close` |
-| 2:30–3:00 | Share back + feedback + retrospective |
+**Your own project**:
+- Use `/conductor` to set up a new charter and architecture
+- Use `/kickstart` to create the initial structure
+- Use `/openspec-new-change` to start your first improvement
 
-Between sessions, participants should have their project set up with a charter, architecture description, and at least one change in progress.
+See [Project ideas by role](projects-developers.md), [architects](projects-architects.md), [presales](projects-presales.md).
 
-> **Don't have a project idea?** Pick one of these — each can be kicked off in under 10 minutes:
-> - **Fruit explorer** — display fruit nutrition data using the [FruityVice API](https://www.fruityvice.com) (no key needed)
-> - **Weather widget** — show current conditions for any city using the [Open-Meteo API](https://open-meteo.com) (no key needed)
-> - **Recipe finder** — search and browse recipes using the [TheMealDB API](https://www.themealdb.com/api.php) (no key needed)
-> - **ACME Order System** — explore architectural patterns and anti-patterns in a realistic Spring Boot application — [see details](#reference-projects)
+### 4. Work through a workflow
+Once you have a project:
 
----
+1. **Understand** the current state — run `/health-assessment` or `/health-scan`
+2. **Explore** the architecture — use `/brownfield-explore` or `/architect`
+3. **Plan** improvements — create an OpenSpec change with `/openspec-new-change`
+4. **Implement** — use `/openspec-apply-change` to write code
+5. **Verify** — check with `/openspec-verify-change`
+6. **Close** — archive the change with `/openspec-archive-change`
 
-## Format B — Fast path (3 hours)
+## Preparation
 
-For groups that have already been introduced to the Conductor Model. Minimal intro, maximum hands-on.
+Before starting:
+- → [**Prepare before you start**](prepare.md) — environment setup and tools
+- → [**Getting started**](getting-started.md) — what to run first
 
-| Time | What happens |
-|---|---|
-| 0:00–0:10 | Recap and orientation |
-| 0:10–0:25 | Live demo: `/conductor` → `/kickstart` → first change |
-| 0:25–2:40 | Hands-on — you build, facilitator circulates |
-| 2:40–3:00 | Share back + feedback |
+## Background
 
-The hands-on block is the session. Everything else is minimal.
-
----
-
-## Before you arrive
-
-**This is the most important page.** If you are not prepared, you will spend the first 45 minutes catching up instead of building.
-
-→ [Prepare before the session](prepare.md)
-
-## During the session
-
-→ [Getting started — what to run when you sit down](getting-started.md)
+- [The Conductor Model — framework and philosophy](the-conductor-model.md)
+- [OpenSpec — structured workflow for changes](openspec.md)
+- [Project ideas — developers](projects-developers.md)
+- [Project ideas — architects](projects-architects.md)  
+- [Project ideas — presales](projects-presales.md)
 
 ## Reference Projects
 
 ### ACME Order Management System
 
-A realistic Spring Boot application with 11 commits of history, showing architectural patterns and anti-patterns in practice. Use it to:
-- Explore real codebase decisions (good and questionable)
-- Walk through git history to understand how a project evolved
-- Discuss refactoring approaches with your team
-- Experiment with changes in your own local clone
+A realistic Spring Boot application with intentional design patterns and anti-patterns.
 
-**Always clone from GitHub** (keeps the repository clean):
+Use it to explore:
+- How architectural decisions compound over time
+- Real code with mixed patterns and technical debt
+- How to assess and improve a codebase with agentic workflows
+
+**Get started:**
 ```bash
 git clone https://github.com/consid-agentic-engineering/acme-order-system.git
 cd acme-order-system
-git log --oneline  # See the full history
-
-# Now make changes, branches, commits — all local
-# Your changes stay in your clone, never touch the repository
 ```
 
-Do **not** work directly in `playground/acme-order-system/` — that's just a reference copy. Clone from GitHub instead.
-
-→ [**Brownfield Exploration — how to use the ACME system for hands-on practice**](brownfield-exploration.md)
-
----
-
-## Background reading
-
-→ [The Conductor Model — what it is and why it exists](the-conductor-model.md)
-→ [OpenSpec — structured change management](openspec.md)
-→ [Project ideas — developers](projects-developers.md)
-→ [Project ideas — architects](projects-architects.md)
-→ [Project ideas — presales](projects-presales.md)
+Then follow the workflows in → [**Brownfield Exploration**](brownfield-exploration.md)
