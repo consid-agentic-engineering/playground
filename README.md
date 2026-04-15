@@ -42,15 +42,10 @@ See [Project ideas by role](projects-developers.md), [architects](projects-archi
   - Design improvements with `/architect` or `/target-architecture`
   - Implement changes with OpenSpec workflows
 
-### 4. Work through a workflow
-Once you have a project:
+## Scenarios by role
 
-1. **Understand** the current state — run `/health-assessment` or `/health-scan`
-2. **Explore** the architecture — use `/brownfield-explore` or `/architect`
-3. **Plan** improvements — create an OpenSpec change with `/openspec-new-change`
-4. **Implement** — use `/openspec-apply-change` to write code
-5. **Verify** — check with `/openspec-verify-change`
-6. **Close** — archive the change with `/openspec-archive-change`
+- → [**Architect scenarios**](architect-scenarios/) — design and system exploration exercises
+- → [**Presales scenarios**](presales-scenarios/) — capability demonstrations and client engagements
 
 ## Preparation
 
