@@ -77,15 +77,19 @@ A realistic Spring Boot application with 11 commits of history, showing architec
 - Explore real codebase decisions (good and questionable)
 - Walk through git history to understand how a project evolved
 - Discuss refactoring approaches with your team
+- Experiment with changes in your own local clone
 
-**Clone independently** (doesn't affect playground):
+**Always clone from GitHub** (keeps the repository clean):
 ```bash
 git clone https://github.com/consid-agentic-engineering/acme-order-system.git
 cd acme-order-system
 git log --oneline  # See the full history
+
+# Now make changes, branches, commits — all local
+# Your changes stay in your clone, never touch the repository
 ```
 
-Or explore it **here** in the playground at `playground/acme-order-system/` — each person can work in their own checkout.
+Do **not** work directly in `playground/acme-order-system/` — that's just a reference copy. Clone from GitHub instead.
 
 ---
 
