@@ -27,12 +27,6 @@ Pick an idea that interests you:
 - **Weather widget** — conditions from [Open-Meteo API](https://open-meteo.com)
 - **Recipe finder** — recipes from [TheMealDB API](https://www.themealdb.com/api.php)
 
-**Real codebase exploration**:
-- **ACME Order System** — realistic Spring Boot app showing patterns and anti-patterns
-  - 11 commits of history to explore
-  - Intentional design issues to discuss and refactor
-  - Clone from [GitHub](https://github.com/consid-agentic-engineering/acme-order-system.git)
-
 **Your own project**:
 - Use `/conductor` to set up a new charter and architecture
 - Use `/kickstart` to create the initial structure
