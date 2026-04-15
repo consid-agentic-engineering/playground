@@ -43,6 +43,7 @@ Pick an idea that interests you:
 **Your own project**:
 - Use `/conductor` to set up a new charter and architecture
 - Use `/kickstart` to create the initial structure
+- Use `/brownfield-explore` to understand the structure you just created
 - Use `/openspec-new-change` to start your first improvement
 
 See [Project ideas by role](projects-developers.md), [architects](projects-architects.md), [presales](projects-presales.md).
