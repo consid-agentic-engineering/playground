@@ -40,6 +40,7 @@ Between sessions, participants should have their project set up with a charter, 
 > - **Fruit explorer** — display fruit nutrition data using the [FruityVice API](https://www.fruityvice.com) (no key needed)
 > - **Weather widget** — show current conditions for any city using the [Open-Meteo API](https://open-meteo.com) (no key needed)
 > - **Recipe finder** — search and browse recipes using the [TheMealDB API](https://www.themealdb.com/api.php) (no key needed)
+> - **ACME Order System** — explore architectural patterns and anti-patterns in a realistic Spring Boot application — [see details](#reference-projects)
 
 ---
 
@@ -67,6 +68,26 @@ The hands-on block is the session. Everything else is minimal.
 ## During the session
 
 → [Getting started — what to run when you sit down](getting-started.md)
+
+## Reference Projects
+
+### ACME Order Management System
+
+A realistic Spring Boot application with 11 commits of history, showing architectural patterns and anti-patterns in practice. Use it to:
+- Explore real codebase decisions (good and questionable)
+- Walk through git history to understand how a project evolved
+- Discuss refactoring approaches with your team
+
+**Clone independently** (doesn't affect playground):
+```bash
+git clone https://github.com/consid-agentic-engineering/acme-order-system.git
+cd acme-order-system
+git log --oneline  # See the full history
+```
+
+Or explore it **here** in the playground at `playground/acme-order-system/` — each person can work in their own checkout.
+
+---
 
 ## Background reading
 
