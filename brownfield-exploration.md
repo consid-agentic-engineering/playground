@@ -1,6 +1,17 @@
-# ACME Order System — Workflow Examples
+# Brownfield Exploration with ACME Order System
 
-Use the ACME Order System to practice different Directed Agentic Engineering workflows.
+This guide shows how to explore, assess, and improve an existing codebase using Directed Agentic Engineering workflows.
+
+**Brownfield** means working with real, existing code — code that has accumulated decisions (good and questionable), technical debt, and real-world complexity. It's not a greenfield project where you start from scratch.
+
+The ACME Order System is a realistic brownfield project: a working Spring Boot application with 11 commits of history, architectural anti-patterns, security issues, and mixed design decisions. It's a perfect playground for learning how to:
+
+- **Understand** what you're looking at (health assessment)
+- **Explore** the codebase systematically (brownfield exploration)  
+- **Plan** improvements (architecture and design)
+- **Implement** changes using structured workflows (OpenSpec)
+
+Use this guide to practice with real code and real Directed Agentic Engineering tools.
 
 ## Workflow 1: Health Assessment
 
