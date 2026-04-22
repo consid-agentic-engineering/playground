@@ -91,15 +91,17 @@ npm install
 npm run build
 ```
 
-**Copy to your agent:**
+**Install into your agent:**
 
-| Agent | macOS / Linux / Git Bash |
+| Agent | Command |
 |---|---|
-| Claude Code | `cp -r dist/exports/claude/.claude ~/` |
+| Claude Code | `npm run install:global` |
 | OpenCode | `cp -r dist/exports/opencode/.opencode <your-project>/` |
 | Codex | `cp -r dist/exports/codex/.agents <your-project>/` |
 
-> **Windows note:** These commands work in Git Bash. If you are using WSL2, run them inside the Linux shell and use your Linux home directory (`~/`).
+For OpenCode and Codex, replace `<your-project>` with the path to your project folder.
+
+> **Windows note:** These commands work in Git Bash. If you are using WSL2, run them inside the Linux shell.
 
 **Verify it works:**
 
